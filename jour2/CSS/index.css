@@ -1,0 +1,100 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Autumn Flowers",sans-serif;
+    color: #f2d6dd;
+    text-align: center;
+    font-style: oblique;
+    margin: 10px 0;
+    background: linear-gradient(
+        90deg,
+        rgb(131 58 180 / 100%) 0%,
+        rgb(253 29 29 / 60%) 60%,
+        rgb(252 176 69 / 100%) 100%
+      ),
+       radial-gradient(circle, rgb(255 255 255 / 100%) 0%, rgb(0 0 0 / 100%) 28%);
+    
+    padding: 20px;
+    width: 100%;
+    background-origin: padding-box, content-box;
+
+}
+#photo{
+    position:relative; left: 50px;
+    border: 9px dashed rgb(189, 21, 105)
+    
+}
+.hautdepage{
+    display: flex;
+    justify-content: space-between;
+}
+.adresse{
+   
+    margin: 70px;
+    text-align: right;
+    font-size: 70px;
+    font-family: "Better Grade";
+    color: #A114D2;
+    font-style: italic;
+    
+}
+
+h3{
+    text-align: center;
+    font-family: "Better Grade", sans-serif;
+    font-size: 60px;
+    color: #FF3374;
+    text-decoration: #A114D2 wavy;
+    text-decoration-line: overline underline;
+}
+
+p{
+    font-family: "Better Grade", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #A114D2;
+    
+}
+.liste{
+    font-family: "Better Grade", sans-serif;
+    text-align:left;
+    justify-content: center;
+    font-size: 17px;
+    color: #A114D2;
+    margin: auto;
+    width: 25%;
+   
+}
+li{
+        text-align:justify ;
+        list-style-image: url("etoile2.png");
+}
+
+@font-face {
+    font-family: 'Autumn Flowers';
+    src: url('AutumnFlowersRegular.eot');
+    src: url('AutumnFlowersRegular.eot?#iefix') format('embedded-opentype'),
+        url('AutumnFlowersRegular.woff2') format('woff2'),
+        url('AutumnFlowersRegular.woff') format('woff'),
+        url('AutumnFlowersRegular.ttf') format('truetype'),
+        url('AutumnFlowersRegular.svg#AutumnFlowersRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Better Grade';
+    src: url('BetterGrade.eot');
+    src: url('BetterGrade.eot?#iefix') format('embedded-opentype'),
+        url('BetterGrade.woff2') format('woff2'),
+        url('BetterGrade.woff') format('woff'),
+        url('BetterGrade.ttf') format('truetype'),
+        url('BetterGrade.svg#BetterGrade') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
